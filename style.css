@@ -1,0 +1,112 @@
+html {
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #637f9a;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main {
+  background-color: #e9ecef;
+  width: 70rem;
+  height: 70rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.carousel-title {
+  font-size: 4.8rem;
+  color: #1b1b32;
+  margin-bottom: 4rem;
+}
+.carousel-box {
+  width: 45rem;
+  height: 45rem;
+  border-radius: 9px;
+  background-color: #fff;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  padding: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.img-box {
+  width: 12rem;
+  height: 12rem;
+  background-color: #49a6ea;
+  border-radius: 50%;
+  position: absolute;
+  top: 36px;
+  right: 159px;
+}
+.carousel-img {
+  z-index: 1;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.person-name {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #1b1b32;
+  margin-bottom: 0.8rem;
+  letter-spacing: 1.75px;
+}
+.person-job {
+  color: #8ccbf9;
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+.opinion {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+.btn-div {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 1.8rem;
+}
+.btn {
+  font-size: 3rem;
+  color: #49a6ea;
+  cursor: pointer;
+}
+
+.btn-s {
+  border: none;
+  padding: 1.2rem 2.4rem;
+  background-color: #8ccbf9;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-s:hover {
+  background-color: #1b1b32;
+}
