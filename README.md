@@ -30,4 +30,3 @@ This project features a user review carousel that showcases testimonials from va
 ## Future Improvements
 - Add pagination or thumbnail previews for each review.
 - Implement user ratings alongside each testimonial.
-- Enhance accessibility features for better user experience.
